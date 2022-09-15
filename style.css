@@ -1,0 +1,282 @@
+
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 350px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header li a  {
+    color: rgb(250, 224, 191);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+header li a:hover  {
+    color: rgb(255, 151, 82);
+}
+
+header li:first-child {
+    margin-left: 0;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+.temporada {
+    background-image: url(./img/The-Walking-Dead-1-Temporada.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.temporada h1 {
+    font-size: 3.2rem;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.temporada h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 0 50px;
+    
+}
+
+.temporada .btn {
+    background-color: #fff;
+    border-radius: 10px;
+    color: brown;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.mortes, .contato {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.mortes h3, .episodio h3, .contato h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: antiquewhite;
+}
+
+.mortes p, .episodio p, .contato p {
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin-bottom: 25px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.mortes hr, .episodio hr, .contato hr{
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.mortes .grid, .episodio .grid {
+    width: 100%;
+    display: flex;
+}
+
+.episodio .grid {
+    flex-wrap: wrap;
+}
+
+
+.mortes .grid li{
+    padding: 0 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mortes .grid span {
+    color: rgb(255, 151, 82);
+    margin-bottom: 30px;
+    font-size: 5.2rem;
+}
+
+.mortes .grid h4 {
+    color: rgb(255, 151, 82);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.episodio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.episodio h3 {
+    color: brown;
+}
+
+.episodio p{
+    color: #000;
+}
+
+.episodio hr {
+    background-color: #000;
+}
+
+.episodio .grid li {
+    height: 350px;
+    padding: 5px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box ;
+}
+
+.episodio .grid .small {
+    width: 40%;
+}
+
+.episodio .grid .large {
+    width: 60%;
+}
+
+
+
+.contato h3 {
+    color: antiquewhite;
+}
+
+.contato p {
+    color: antiquewhite;
+}
+
+.contato form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+.contato input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 15px;
+    flex: 1;
+}
+
+.contato button {
+    padding: 10px; 
+    border-radius: 6px;
+    background-color: bisque;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid black;
+
+}
+
+footer {
+    background-image: url(./img/banner_historia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px ;
+}
+
+footer li {
+    margin-right: 25px;
+    
+}
+
+footer li:first-child {
+    margin-left: 0;
+}
+
+footer li:last-child {
+    margin-right: 0;
+}
+
+footer ul a {
+    color: #000;
+}
+
+footer ul span {
+    font-size: 2rem!important;
+    background-color:  #fff;
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+
+footer p{
+    text-align: center;
+}
